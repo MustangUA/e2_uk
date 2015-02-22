@@ -15,7 +15,7 @@ function e2l_load_strings () {
   // installer
   'pt--install' => 'Встановлення Егеї',
   'gs--user-fixes-needed' => 'Добре, треба дещо виправити.',
-  'gs--following-folders-missing' => 'Не знайдені ці папки із дистрибутиву двигуна:',
+  'gs--following-folders-missing' => 'Не знайдені ці папки із дистрибутива двигуна:',
   'gs--could-not-create-them-automatically' => 'Створити їх автоматично не вдалось через брак прав. Завантажте на сервер повний дистрибутив.',
   'gs--and-reload-installer' => 'І перевантажте встановлювач',
   'fb--begin' => 'Почати блог',
@@ -48,8 +48,8 @@ function e2l_load_strings () {
   
   // posts
   'ln--new-post' => 'Новий',
-  'bt--close-comments-to-post' => 'Закрити комментування допису',
-  'bt--open-comments-to-post' => 'Відкрити комментування допису',
+  'bt--close-comments-to-post' => 'Закрити коментування допису',
+  'bt--open-comments-to-post' => 'Відкрити коментування допису',
   'pt--new-post' => 'Новий допис',
   'pt--edit-post' => 'Редагування допису',
   'er--post-must-have-title-and-text' => 'У допису повинні бути назва і текст',
@@ -74,13 +74,13 @@ function e2l_load_strings () {
 
   'ff--gmt-offset' => 'Різниця з Гринвічем',
   'ff--with-dst' => '+1 влітку',
-  'ff--post-time' => 'Час публикації',
+  'ff--post-time' => 'Час публікації',
   
   'pt--post-deletion' => 'Видалення допису',
   'gs--post-will-be-deleted' => 'Допис «$[post]» видалиться разом із коментарями.',
 
   // frontpage 
-  'er--cannot-show-latest-notes' => 'Неможливо відобразити останні дописи',
+  'er--cannot-show-latest-notes' => 'Неможливо показати останні дописи',
   'nm--posts' => 'Дописи',
   'gs--next-posts' => 'наступні',
   'gs--prev-posts' => 'попередні',
@@ -96,7 +96,7 @@ function e2l_load_strings () {
   // comments
   'pt--new-comment' => 'Новий коментар',
   'pt--edit-comment' => 'Редагування коментаря',
-  'pt--reply-to-comment' => 'Відповідь на коммнтар',
+  'pt--reply-to-comment' => 'Відповідь на коментар',
   'pt--edit-reply-to-comment' => 'Редагування відповіді на коментар',
   'pt--unsubscription-done' => 'Вийшло!',
   'pt--unsubscription-failed' => 'Не вийшло',
@@ -114,7 +114,7 @@ function e2l_load_strings () {
   'gs--you-are-already-subscribed' => 'Ви підписані на коментарі. Посилання для відписки приходитиме у кожному листі з новими коментарями.',
   'er--post-not-commentable' => 'Цю додатку не можна коментувати',
   'er--name-email-text-required' => 'Ім’я, ел. пошта та текст коментаря обов’язкові',
-  'ff--notify-subscribers' => 'Відправити поштою коментартору та іншим підписникам',
+  'ff--notify-subscribers' => 'Відправити поштою коментатору та іншим підписникам',
   'gs--your-comment' => 'Ваш коментар',
   'ff--full-name' => 'Ім’я та прізвище',
   'ff--email' => 'Ел. пошта',
@@ -143,15 +143,15 @@ function e2l_load_strings () {
   'ff--tag-name' => 'Назва',
   'ff--tag-urlname' => 'В адресному рядку',
   'ff--tag-description' => 'Опис',
-  'gs--tag-will-be-deleted-notes-remain' => 'Тег «$[tag]» видалитсья із нотаток, але самі нотатки залишаться.',
+  'gs--tag-will-be-deleted-notes-remain' => 'Тег «$[tag]» видалиться із нотаток, але самі нотатки залишаться.',
   'gs--see-also-tag' => 'Див. також тег',
   'gs--tags-important' => 'важливі',
   'gs--tags-all' => 'усі',
   'gs--tags' => 'Теги',
   
   // most commented and favourites
-  'pt--most-commented' => 'Найкоментованіші за $[period.periodname]',
-  'nm--most-commented' => 'Найкоментованіше',
+  'pt--most-commented' => 'Найбільш коментовані за $[period.periodname]',
+  'nm--most-commented' => 'Найбільш коментоване',
   'pt--most-read' => 'Найпопулярніше за $[period.periodname]',
   'nm--most-read' => 'Популярне',
   'pt--favourites' => 'Обране',
@@ -188,7 +188,7 @@ function e2l_load_strings () {
   'er--could-not-change-password' => 'Не вдалось змінити пароль',
   'er--no-password-entered' => 'Ви не ввели пароль',
   'er--wrong-password' => 'Неправильний пароль',
-  'ff--displayed-as-plain-text' => 'відображається при введенні',
+  'ff--displayed-as-plain-text' => 'показується при введенні',
   'er--settings-not-saved' => 'Налаштування не збережені',
 
   'pt--sessions' => 'Відкриті сесії',
@@ -200,9 +200,9 @@ function e2l_load_strings () {
   'gs--unknown' => 'невідомо',
   'fb--end-all-sessions-but-this' => 'Завершити усі сесії окрім поточної',
   'gs--ua-iphone' => 'Айфон',
-  'gs--ua-ipad' => 'Айпад',
+  'gs--ua-ipad' => 'Айпед',
   'gs--ua-opera' => 'Опера',
-  'gs--ua-firefox' => 'Фаєрфокс',
+  'gs--ua-firefox' => 'Файрфокс',
   'gs--ua-chrome' => 'Хром',
   'gs--ua-safari' => 'Сафарі',
   'gs--ua-unknown' => 'Невід.',
@@ -220,7 +220,7 @@ function e2l_load_strings () {
   'ff--comments' => 'Коментарі',
   'ff--comments-enable' => 'Дозволяти',
   'ff--only-for-recent-posts' => 'тільки до свіжих дописів',
-  'ff--show-hot' => 'показувати блок «Найкоментованіше»',
+  'ff--show-hot' => 'показувати блок «Найбільш коментоване»',
   'ff--send-to-address' => 'надсилати поштою на адресу:',
   'ff--administration' => 'Адміністрування:',
   'gs--password' => 'пароль',
